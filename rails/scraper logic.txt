@@ -1,0 +1,15 @@
+recent_match_scraper
+  save data to rails
+  for each match
+    create match_detail_scraper
+  if last match start_time < 6h ago
+    recent_match_scraper ( starting at last match.id )
+  else
+    recent_match_scraper( at begining again )
+    historical_match_scraper()
+
+match_detail_scraper
+  if has data for this already AND not forceScrape
+  save data to rails
+  if match is not over
+    match_detail_scraper in 10 seconds, with param that says forceScrape

@@ -1,0 +1,17 @@
+<%= form_for(match_detail) do |f| %>
+  <% if match_detail.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(match_detail.errors.count, "error") %> prohibited this match_detail from being saved:</h2>
+
+      <ul>
+      <% match_detail.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

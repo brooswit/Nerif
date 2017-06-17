@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sequence_number: 1
+  lobby_type: 1
+  radiant_team_id: 1
+  dire_team_id: MyString
+
+two:
+  sequence_number: 1
+  lobby_type: 1
+  radiant_team_id: 1
+  dire_team_id: MyString

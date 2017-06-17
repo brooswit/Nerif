@@ -1,0 +1,14 @@
+{
+  "name": "nerif_scraper",
+  "version": "0.0.0",
+  "description": "Scrapes Dota2 api and sends results to a restful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Winstead <awatemonosan@gmail.com> (johnwinstead.ninja)",
+  "license": "ISC",
+  "dependencies": {
+    "firebase-admin": "^5.0.0"
+  }
+}
